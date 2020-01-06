@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="UTF-8">
+	 <meta name="description" content="Portfolio">
+	 <meta name="author" content="Virender Yadav">
+	 <meta name="viewport" content="width=device-width,initial-scale=1.0">
+	 <link rel="stylesheet" type="text/css" href="css\css.css">
+	<title>Virender Yadav Portfolio</title>
+    <script type="text/javascript">
+    function togglemenu(){
+        document.getElementById("fortoggle").classList.toggle("active");
+    }
+    </script>
+</head>
+<body>
+	<div id="header">
+        <span>Virender Yadav</span>
+		<ul id="fortoggle">
+            <li><a href="#main-info" class="active">Home</a></li>
+            <li><a href="#work" >Portfolio</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#contact-me">Contact Me</a></li> 
+            <a href="#" target="_blank" class="resume">Resume</a>
+        </ul>
+        <div id="toggle-menu" onclick="togglemenu()">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+     </div>
+    <div id="main-info">
+        <div class="main-img">
+            <img src="img/photo.png" alt="profile photo">
+        </div>
+        <div class="main-text">
+        <h1>Hello</h1><p>My name is Virender Yadav and <br>i am a Creative <br><span>Web designer .</span></p> 
+        </div>
+    </div>
+    <div id="work">
+        <div class="work-heading">
+            <h2>Portfolio</h2>
+            <p>I enjoy taking complex problems and turning them into simple and beautiful interface designs.<br> Here’s a some of my work.</p>
+        </div>
+        <div class="work-view">
+            <div class="work-img">
+            <img src="img/youth.PNG" alt="Youthtrend">
+            </div>    
+            <div class="work-view-button">
+                <span>Youth trend</span>
+                <a href="https://sonutezz.github.io/Youthtrend/" target="_blank"><input type="button" value="View Project" alt="youthtrend"></a>
+            </div>
+        </div>
+     </div>
+    <div id="skills">
+        <span class="skills-head">My Skills</span>
+        <div class="skills-img">
+            <img src="img/html.png" alt="HTML">
+        </div>
+        <div class="skills-img">
+            <img src="img/css.png" alt="CSS">
+        </div>
+        <div class="skills-img">
+            <img src="img/javascript.png" alt="javascript">
+        </div>
+        <div class="skills-img">
+            <img src="img/jquery1.png" alt="jquery">
+        </div>
+        <div class="skills-img">
+            <img src="img/bootstrap.png" alt="Bootstrap">
+        </div>
+        <div class="skills-img">
+            <img src="img/ps.png" alt="photoshop">
+        </div>
+    </div>
+    <div id="aboutme">
+        <span>About me</span>
+        <div class="about-me">
+            <div class="about-img">
+            <img src="img/fastlearner.png" alt="Quick Learner">
+            <h2>Quick Learner</h2>
+                <p>I love writing code and like to explore new languages.I think will make me more efficient in my daily tasks</p>
+            </div>
+            <div class="about-img">
+            <img src="img/comm.png" alt="Committed">
+            <h2>Committed</h2>
+                <p>You need a reliable person that will get the job done? Look no further! I deliver work on time.</p>
+            </div>
+            <div class="about-img">
+            <img src="img/atte1.png" alt="Attention to details">
+            <h2>Attention to details</h2>
+                <p>Understanding the mechanisms of each language is what I am all about i do not like the feeling of solving a problem without knowing how i did it.</p>
+            </div>
+        </div>
+    </div>
+    <div id="contact-me">
+       <span class="contact-head">Contact Me</span>
+       <div class="contact-email">
+          <div class="contact-email-gmail">
+              <a href="mailto:virenderyadav182@gmail.com"><img src="img/gmail.png" alt="email id"></a>
+               <p>virenderyadav182@gmail.com</p>
+           </div>
+             <div class="contact-email-gmail">
+              <a href="https://www.linkedin.com/in/virender-yadav-9045a5153"><img src="img/LinkedIn.png" alt="virender yadav linkedin" class="linkedin"></a>
+           </div>
+       </div>
+    </div>
+    <div id="footer">
+        <p>&copy;2019 COPYRIGHT BY Virender yadav. ALL RIGHTS RESERVED.</p>
+    </div>
+
+</body>
+</html>
